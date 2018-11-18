@@ -20,7 +20,9 @@ namespace LinkedList
 
             list.Remove("Liam");
 
-            foreach(var item in list)
+            Console.WriteLine($"В списке {list.Count} элементов");
+
+            foreach (var item in list)
             {
                 Console.WriteLine(item);
             }
